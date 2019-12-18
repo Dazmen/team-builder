@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+.formCont{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.form form{
+  display:flex;
+  flex-direction: column;
+}
+
+.form form button{
+  margin:20px auto;
+  width:30%;
+}
+
+.theTeam{
+  display: flex;
+  width:80%;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+
+.memberInfo{
+  width: 60%;
+  margin: 15px 3%;
+  text-align: center;
+  background-color: grey;
+  border-radius: 15px;
+}
